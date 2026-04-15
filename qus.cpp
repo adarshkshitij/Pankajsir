@@ -57,22 +57,33 @@
 
  // Q3 Given an array , reverse the content of the array 
 
- #include<iostream>
- using namespace std;
- void reverse(int a[],int size){
-    int temp;
-if(size == 0 || size == 1)
-    return;
-temp = a[0];
-a[0]= a[size-1];
-a[size -1]= temp;
-reverse(a+1, size-2);
-}
-int main()
-{
-    int a[]={10, 20, 30,40,50,60};
-    reverse(a,6);
-    for (int i= 0;i<6;i++)
-    cout<<a[i]<<" ";
-    return 0;
-}
+// #include<iostream>
+//  using namespace std;
+//  void reverse(int a[],int size){
+//     int temp;
+// if(size == 0 || size == 1)
+//     return;
+// temp = a[0];
+// a[0]= a[size-1];
+// a[size -1]= temp;
+// reverse(a+1, size-2);
+// }
+// int main()
+// {
+//     int a[]={10, 20, 30,40,50,60};
+//     reverse(a,6);
+//     for (int i= 0;i<6;i++)
+//     cout<<a[i]<<" ";
+//     return 0;
+// }
+
+
+
+
+// Q4 Remove a particula character from the string using the resucrsion 
+//ip abxcbdx i want to remove the x form the code
+// case i first character is 'x'
+// case ii first character is not x
+// first we havt to find the length of the input 
+// agar pahla charactr x nahi hai then call the funtion 
+
